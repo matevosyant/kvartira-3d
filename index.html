@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Квартира — 3D-план и мебель</title>
+<style>
+  :root { --bg: #ded6cb; --card: #fbf9f5; --ink: #2b2622; --muted: #6f655b; --accent: #7a4a26; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 1080px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { margin: 0 0 6px; font-size: 28px; }
+  h2.sec { margin: 30px 0 12px; font-size: 20px; }
+  .lead { margin: 0 0 22px; color: var(--muted); max-width: 740px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  a.card { display: block; background: var(--card); border-radius: 14px; overflow: hidden; text-decoration: none; color: inherit;
+           box-shadow: 0 2px 10px rgba(60,40,20,.14); transition: transform .12s, box-shadow .12s; }
+  a.card:hover, a.card:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(60,40,20,.22); outline: none; }
+  .card img { display: block; width: 100%; aspect-ratio: 660 / 444; object-fit: cover; background: #e9e3da; }
+  .card div { padding: 12px 16px 16px; }
+  .card h2 { margin: 0 0 4px; font-size: 19px; }
+  .card p { margin: 0; color: var(--muted); font-size: 14.5px; }
+  .card span { display: inline-block; margin-top: 10px; color: var(--accent); font-weight: 600; font-size: 14.5px; }
+  a.card.wide { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: center; }
+  a.card.wide h2 { font-size: 23px; }
+  @media (max-width: 700px) { a.card.wide { display: block; } }
+  .how { margin-top: 28px; background: rgba(255,255,255,.6); border-radius: 14px; padding: 14px 18px; color: var(--muted); font-size: 14.5px; }
+  .how b { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Квартира — 3D-план и мебель</h1>
+  <p class="lead">Вся квартира целиком по плану дизайнера и подробные модели мебели по комнатам, с нашими правками.</p>
+
+  <a class="card wide" href="apartment-3d.html">
+    <img src="thumbs/apartment.jpg" alt="3D-план всей квартиры" loading="lazy">
+    <div>
+      <h2>Вся квартира</h2>
+      <p>Стены взяты из плана дизайнера, мебель стоит по местам упрощёнными объёмами. Можно срезать стены, подписать комнаты и перейти в любую из них.</p>
+      <span>Открыть 3D-план →</span>
+    </div>
+  </a>
+
+  <h2 class="sec">Комнаты подробно</h2>
+  <div class="grid">
+    <a class="card" href="kitchen-3d-by-drawings.html"><img src="thumbs/kitchen.jpg" alt="Кухня" loading="lazy">
+      <div><h2>Кухня</h2><p>П-образная кухня с барной стойкой и аркой. Два варианта: согласованный и доработанный.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="living-3d-by-drawings.html"><img src="thumbs/living.jpg" alt="Гостиная" loading="lazy">
+      <div><h2>Гостиная</h2><p>ТВ-зона с тумбой и панелями, стеклянная витрина, шкаф с кондиционером за решёткой.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="kids-3d-by-drawings.html"><img src="thumbs/kids.jpg" alt="Детская" loading="lazy">
+      <div><h2>Детская</h2><p>Стол со стеллажом у окна и встроенный шкаф с наполнением для мальчика 8 лет.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="bedroom-3d-by-drawings.html"><img src="thumbs/bedroom.jpg" alt="Спальня" loading="lazy">
+      <div><h2>Спальня</h2><p>Шкаф с гладильной доской, открытый стеллаж, туалетный стол с зеркалом, прикроватные тумбы.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="wardrobe-3d-by-drawings.html"><img src="thumbs/wardrobe.jpg" alt="Гардеробная" loading="lazy">
+      <div><h2>Гардеробная</h2><p>Открытые стеллажи буквой Г: штанги, полки, брючница и выдвижные ящики.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="hall-3d-by-drawings.html"><img src="thumbs/hall.jpg" alt="Прихожая" loading="lazy">
+      <div><h2>Прихожая</h2><p>Шкаф, встроенный в стену, с отсеком для верхней одежды и выдвижной обувницей.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="laundry-3d-by-drawings.html"><img src="thumbs/laundry.jpg" alt="Постирочная" loading="lazy">
+      <div><h2>Постирочная</h2><p>Колонна со стиральной и сушильной машинами, шкафы и открытый стеллаж.</p><span>Открыть модель →</span></div></a>
+    <a class="card" href="bathroom-3d-by-drawings.html"><img src="thumbs/bathroom.jpg" alt="Санузел" loading="lazy">
+      <div><h2>Санузел</h2><p>Шкаф с нишей над унитазом и подвесная тумба под раковину с тремя ящиками.</p><span>Открыть модель →</span></div></a>
+  </div>
+
+  <p class="how"><b>Как смотреть.</b> Зажать мышь и вести — крутить модель (на телефоне — пальцем). Колёсико — приблизить.
+    Клик по двери или ящику — открыть. Кнопка «Размеры» показывает размеры в миллиметрах. Размеры в моделях
+    предварительные: перед заказом нужен замер на месте.</p>
+</main>
+</body>
+</html>
